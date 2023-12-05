@@ -1,0 +1,3 @@
+<app-user *ngFor="let user of users" [user]="user" (lift)="getUser($event)"></app-user>
+<hr>
+<app-user-post *ngIf="userPost" [userPosts]="userPost"></app-user-post>
